@@ -1,7 +1,7 @@
 {
-  "name": "V2EX",
+  "name": "Vue-Cnblog-demo",
   "version": "0.0.1",
-  "description": "用vue.js 重写V2EX社区",
+  "description": "基于vue.js写的cnblogs.com社区的Webapp",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
