@@ -9,9 +9,9 @@ config.plugins.push(new webpack.HotModuleReplacementPlugin());
 // 这里配置：请求http://localhost:9090/api，
 // 相当于通过本地node服务代理请求到了http://cnodejs.org/api
 var proxy = [{
-    path: "/api/*",
-    target: "https://cnodejs.org",
-    host: "cnodejs.org"
+    path: "*",
+    target: "https://cnblogs.com",
+    host: "cnblogs.com"
 }]
 //启动服务
 var app = new WebpackDevServer(webpack(config), {
